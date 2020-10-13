@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
 
-const Codigo = () => {
+const Codigo = (props) => {
+const { history } = props;
   return (
 
 <div className="Codigo">
@@ -21,10 +22,9 @@ const Codigo = () => {
       ></input>
 
       <p>
-        <button type="button" className="btn btn-primary btn-lg">
-          {" "}
-          Confirmar{" "}
-        </button>{" "}
+        <button type="button" className="btn btn-primary btn-lg" onClick={() => history.push("/Inicio")}>
+          Confirmar
+        </button>
       </p>
     </div>
 

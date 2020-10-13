@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
-import "../styles/Inicio.css"
 
-const Inicio = () => {
+
+const Inicio = (props) => {
+const { history } = props;
 return(
   <div className="App">
 
@@ -20,12 +21,14 @@ return(
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"/>
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
     </form>
-    <button className="button" type="button">Iniciar Sesión</button>
+    <button className="button"  type="button" onClick={() => history.push("/Dispositivos")}
+    >Iniciar Sesión
+    </button>
  
     <h4>¿Olvidates tu contraseña? </h4>
    
     <div className="register">
-    <a href="https://www.google.com/"> <h4><u><b> Registrarse</b></u></h4></a>
+    <a href="/Registro"> <h4><u><b> Registrarse</b></u></h4></a>
     </div>
     <div className="cuenta">
     <h4>¿No tienes una cuenta?</h4> 
