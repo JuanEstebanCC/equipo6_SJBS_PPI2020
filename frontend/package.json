@@ -17,7 +17,7 @@
     "typescript": "3.8.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "scripts": {"inicio": "node ./node_modules/react-scripts/bin/react-scripts.js start"},
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
