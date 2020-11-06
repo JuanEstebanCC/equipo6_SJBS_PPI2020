@@ -1,0 +1,25 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .Logo{
+    width: 200px;
+    height: 200px;
+  }
+  .Ppicontainer{
+    background: linear-gradient(0deg, rgba(247,169,0,1) 16%, rgba(245,255,0,1) 100%, rgba(245,255,0,1) 100%);
+  
+  }
+  .Header{
+    background: linear-gradient(0deg, rgba(247,169,0,1) 16%, rgba(245,255,0,1) 100%, rgba(245,255,0,1) 100%);
+  
+  }
+  .Registro{
+  margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+  }
