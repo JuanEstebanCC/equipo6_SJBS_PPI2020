@@ -7,11 +7,7 @@ const { history } = props;
 return(
   <div className="App">
   <header className="App-header">
-   <img 
-src="https://svgshare.com/i/PMs.svg"  className="logo" 
-alt="Smt logo"
-height="150"
- width="280" />
+  <img src="https://svgshare.com/i/PMs.svg" className="Logo" alt="Responsive image"/>
  <form>
 
 <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nueva Contraseña"/>

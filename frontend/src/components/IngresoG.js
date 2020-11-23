@@ -7,14 +7,8 @@ return (
 
 <div className="App">
 
-<img src="https://svgshare.com/i/PMs.svg" className="logo" alt="Smt logo">
-      <img
-        src="https://svgshare.com/i/PMs.svg"
-        className="logo"
-        alt="Smt logo"
-        height="150"
-        width="280"
-      />
+<img src="https://svgshare.com/i/PMs.svg" className="logo" alt="Smt logo"/>
+     
       <div className="titulo">
         <h3> Ingrese su Email </h3>
       </div>
@@ -27,12 +21,12 @@ return (
       />
 
       <button className="button" type="button"
-      onClik = {() => history.push ("/Codigo") }>
+       onClik = {() => history.push ("/Codigo") }>
         Confirmar
       </button>
-    </div>
+   
 
-
+</div>
 
 )
 

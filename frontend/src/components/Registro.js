@@ -9,8 +9,8 @@ const Registro = (props) => {
     
       <div className="container">
        
-
-        <img src="https://svgshare.com/i/PMs.svg" className="Logo" alt="Responsive image">
+ 
+        <img src="https://svgshare.com/i/PMs.svg" className="Logo" alt="Responsive image"/>
   
          
         
@@ -19,7 +19,7 @@ const Registro = (props) => {
           <h2>Registrar</h2>
         </center>
 
-        <form action="/action_page.php" className="was-validated" method="post">
+        <form  className="was-validated" method="post">
           <div className="form-group">
             <label for="uname">Nombre Completo:</label>
             <input
@@ -104,11 +104,11 @@ const Registro = (props) => {
           
         </form>
         
-  </div>
+  
     </div>
 
 
-    </div>
+    
   );
 };
 

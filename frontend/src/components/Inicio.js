@@ -11,7 +11,7 @@ const Inicio = (props) => {
       
 
 
-      <img src="https://svgshare.com/i/PMs.svg" className="Logo" alt="Responsive image">
+      <img src="https://svgshare.com/i/PMs.svg" className="Logo" alt="Responsive image"/>
    
       
      <form>
@@ -43,16 +43,16 @@ const Inicio = (props) => {
     <h3>ó</h3> 
     </div>
     <div className="logof">
-    <a href="https://www.google.com/"><u><b> <img src="https://image.flaticon.com/icons/svg/174/174848.svg"
+    <a href="https://www.google.com/" target="_blank">><u><b> <img src="https://image.flaticon.com/icons/svg/174/174848.svg"
     alt="logof"
     height="40"
-     width="80"/></b> </u> </a>
+     width="80"/> </b> </u> </a>
    </div>
    <div className="logog">
-   <a href="https://www.google.com/"><u> <b>  <img src="https://image.flaticon.com/icons/svg/2702/2702602.svg"
+   <a href="https://www.google.com/" target="_blank">><u> <b>  <img src="https://image.flaticon.com/icons/svg/2702/2702602.svg"
     alt="logog"
     height="40"
-     width="80" /></b> </u> </a>
+     width="80"/></b> </u> </a>
     </div>
      
   </div>
