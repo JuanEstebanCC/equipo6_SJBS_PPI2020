@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link, withRouter } from "react-router-dom";
 
-const IngresoG = ( ) =>{
+const IngresoG = (props ) =>{
+  const {history} = props;
 return (
 
 <div className="App">
+
+<img src="https://svgshare.com/i/PMs.svg" className="logo" alt="Smt logo">
       <img
         src="https://svgshare.com/i/PMs.svg"
         className="logo"
@@ -23,7 +26,8 @@ return (
         placeholder="Email"
       />
 
-      <button className="button" type="button">
+      <button className="button" type="button"
+      onClik = {() => history.push ("/Codigo") }>
         Confirmar
       </button>
     </div>

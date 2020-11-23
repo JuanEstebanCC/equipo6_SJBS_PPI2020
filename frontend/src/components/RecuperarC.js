@@ -18,7 +18,7 @@ height="150"
 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirmar Contraseña" />
 </form>
 <button className="button" type="button"
-onClick={() => history.push("/Dispositivos")}
+onClick={() => history.push("/Inicio")}
 >Confirmar
 </button>
 </header>

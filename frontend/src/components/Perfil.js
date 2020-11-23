@@ -8,7 +8,7 @@ return (
 <div className="Perfil">
 <Navegation/>
 
-
+<center>
   <a href="/" className="list-group-item list-group-item-action">Lista de Grupos</a>
 
   
@@ -34,7 +34,7 @@ return (
   </li>
 </ul>
 </center>
-
+</center>
 </div>
 
 )
