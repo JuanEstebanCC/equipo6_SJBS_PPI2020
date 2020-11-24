@@ -1,0 +1,14 @@
+
+.imagen{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12%;    
+  }
+.boton-registro{
+  margin-top: 7em;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}

@@ -2,24 +2,19 @@ import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import "../styles/Registro.css";
 
-
 const Registro = (props) => {
   const { history } = props;
   return (
-    
-      <div className="container">
-       
- 
-        <img src="https://svgshare.com/i/PMs.svg" className="Logo" alt="Responsive image"/>
-  
-         
-        
+    <div className="container">
+      <div className="imagen">
+        <img src="https://svgshare.com/i/PMs.svg" width="40%" alt="Logo" />
+      </div>
 
-        <center>
-          <h2>Registrar</h2>
-        </center>
-
-        <form  className="was-validated" method="post">
+      <center>
+        <h2>Registrarse</h2>
+      </center>
+      <center>
+        <form action="/action_page.php" className="was-validated" method="post">
           <div className="form-group">
             <label for="uname">Nombre Completo:</label>
             <input
@@ -34,81 +29,82 @@ const Registro = (props) => {
             <div className="invalid-feedback">
               Por favor rellene este campo.
             </div>
-            <label for="pwd">Correo Electronico:</label>
+          </div>
 
+          <div className="form-group">
+            <label for="uname">Apellido:</label>
             <input
-              type="Correo"
+              type="text"
               className="form-control"
-              id="pwd"
-              placeholder="Ingrese su correo"
-              name="pswd"
+              id="uname"
+              placeholder="Ingresa tu apellido"
+              name="uname"
               required
             />
-           
             <div className="valid-feedback">Valida.</div>
             <div className="invalid-feedback">
               Por favor rellene este campo.
             </div>
           </div>
           <div className="form-group">
-            <label for="pwd">Contraseña:</label>
+            <label for="uname">Email:</label>
             <input
-              type="password"
-              className="col-sm form-control"
-              id="pwd"
-              placeholder="Ingrese su contraseña"
-              name="pswd"
+              type="text"
+              className="form-control"
+              id="uname"
+              placeholder="Ingresa tu Email"
+              name="uname"
               required
             />
-
             <div className="valid-feedback">Valida.</div>
             <div className="invalid-feedback">
               Por favor rellene este campo.
             </div>
           </div>
-
-          <div className="form-check form-check-inline">
+          <div className="form-group">
+            <label for="uname">Contraseña:</label>
             <input
-              className="form-check-input"
-              type="radio"
-              name="inlineRadioOptions"
-              id="inlineRadio1"
-              value="option1"
+              type="text"
+              className="form-control"
+              id="uname"
+              placeholder="Ingresa tu contraseña"
+              name="uname"
+              required
             />
-            <label className="form-check-label" for="inlineRadio1">
-              F
-            </label>
+            <div className="valid-feedback">Valida.</div>
+            <div className="invalid-feedback">
+              Por favor rellene este campo.
+            </div>
           </div>
-          <div className="form-check form-check-inline">
+          <div className="form-group">
+            <label for="uname">Confirmar contraseña:</label>
             <input
-              className="form-check-input"
-              type="radio"
-              name="inlineRadioOptions"
-              id="inlineRadio2"
-              value="option2"
+              type="text"
+              className="form-control"
+              id="uname"
+              placeholder="Confirmar contraseña"
+              name="uname"
+              required
             />
-            <label className="form-check-label" for="inlineRadio2">
-              M
-            </label>
+            <div className="valid-feedback">Valida.</div>
+            <div className="invalid-feedback">
+              Por favor rellene este campo.
+            </div>
           </div>
          
-          
-            <button
-              type="button"
-              className="btn btn-primary btn-lg"
-              onClick={() => history.push("/Ingreso")}
-            >
-              {" "}
-              Registrar{" "}
-            </button>{" "}
-          
         </form>
         
-  
+      </center>
+      <div className="boton-registro">
+          <button
+            type="button"
+            className="btn btn-primary btn-lg"
+            onClick={() => history.push("/Ingreso")}
+          >
+            Registrar
+          </button>
+          </div>
     </div>
-
-
-    
   );
 };
 

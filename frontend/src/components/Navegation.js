@@ -19,29 +19,24 @@ const Navegation = () => {
       <Link className="navbar-brand" to="/Dispotivos">
         Menú
       </Link>
-      <div className="Boton">
-        <button type="button" class="btn btn-danger">
-          +
-        </button>
-      </div>
+
       <div className="collapse navbar-collapse" id="navbarColor02">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
+          <li className="nav-item">
             <Link className="nav-link" to="/Dispositivos">
-              Dispositivos<span className="sr-only">(current)</span>
+              Dispositivos
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/Grupos">
               Grupos
             </Link>
-            
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/Auto">
               Automatico
             </Link>
-            </li>
+          </li>
           <li className="nav-item">
             <Link className="nav-link" to="/Perfil">
               Perfil
@@ -52,9 +47,7 @@ const Navegation = () => {
             <Link className="nav-link" to="/Inicio">
               Cerrar Sesión
             </Link>
-            
           </li>
-        
         </ul>
       </div>
     </nav>

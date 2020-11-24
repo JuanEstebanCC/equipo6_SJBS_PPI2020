@@ -12,7 +12,7 @@ export const Dispositivos = () => {
          <div className="perfil">
            
     <nav className="my-2 my-md-0 mr-md-3">
-      <img className='perfil' src='./img/perfil.jpg' alt='perfil' />
+    <img src="" class="img-fluid" alt="Responsive image"/>
 
       </nav>
       </div>
